@@ -3,28 +3,28 @@
 
                                         // PRIVATE
 
-// class Account{
-//         private double balance;
+class Account{
+        private double balance;
 
-//         void setBalance(double b){
-//             balance=b;
-//         }
+        void setBalance(double b){
+            balance=b;
+        }
 
-//         double getBalance(){
-//             return balance;
-//         }
-// }
+        double getBalance(){
+            return balance;
+        }
+}
 
-// public class Encapsulation {
-//    public static void main(String[] args){
-//             Account acc=new Account();
-//             acc.setBalance(1000);
-//             System.out.println(acc.getBalance());
-//             acc.setBalance(2000);           
-//             System.out.println(acc.getBalance());
+public class Encapsulation {
+   public static void main(String[] args){
+            Account acc=new Account();
+            acc.setBalance(1000);
+            System.out.println(acc.getBalance());
+            acc.setBalance(2000);           
+            System.out.println(acc.getBalance());
 
-//     }
-// }
+    }
+}
 
 
                                     // PROTECTED
