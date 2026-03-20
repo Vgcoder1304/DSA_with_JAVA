@@ -18,7 +18,7 @@ class Account{
 public class Encapsulation {
    public static void main(String[] args){
             Account acc=new Account();
-            acc.setBalance(1000);
+            acc.setBalance(2000000);
             System.out.println(acc.getBalance());
             acc.setBalance(2000);           
             System.out.println(acc.getBalance());
